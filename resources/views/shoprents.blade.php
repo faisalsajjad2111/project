@@ -551,7 +551,6 @@
                 
               </div>
             </div></div>
-                        </form>
 
               <!-- /.box-body -->
 

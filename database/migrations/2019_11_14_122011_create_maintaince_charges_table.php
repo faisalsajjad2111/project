@@ -17,13 +17,13 @@ class CreateMaintainceChargesTable extends Migration
             $table->bigIncrements('id');
            $table->integer('Shop_no');
             $table->string('floor');
-            $table->integer('Sqft Size');
+            $table->integer('Sqft_Size');
            $table->string('Setup');
-            $table->integer('Bill No');
+            $table->integer('Bill_No');
             $table->integer('MaintCharges');
             $table->integer('Total');
             $table->integer('Reciieved');
-            $table->integer('Balance Reciieved');
+            $table->integer('Balance_Reciieved');
             $table->timestamps();
         });
     }

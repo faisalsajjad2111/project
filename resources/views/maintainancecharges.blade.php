@@ -537,7 +537,7 @@ Maintainence Charges        <small>Preview</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Sqft Size</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Sqft Size" name="Sqft Size">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Sqft Size" name="Sqft_Size">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Setup</label>
@@ -545,7 +545,7 @@ Maintainence Charges        <small>Preview</small>
                 </div>
                                 <div class="form-group">
                   <label for="exampleInputPassword1">Bill No</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Bill No" name="Bill No">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Bill No" name="Bill_No">
                 </div>
                  <div class="form-group">
                   <label for="exampleInputPassword1">MaintCharges</label>
@@ -565,12 +565,11 @@ Maintainence Charges        <small>Preview</small>
                 </div>
                  <div class="form-group">
                   <label for="exampleInputPassword1">Balance Reciieved</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Balance Reciieved" name="Balance Reciieved">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Balance Reciieved" name="Balance_Reciieved">
                 </div>
                
               </div>
             </div></div>
-                        </form>
 
               <!-- /.box-body -->
 
@@ -579,6 +578,7 @@ Maintainence Charges        <small>Preview</small>
               </div>
             </form>
           </div>
+            </form>
           <!-- /.box -->
 
           <!-- Form Element sizes -->

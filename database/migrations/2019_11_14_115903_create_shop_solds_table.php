@@ -21,11 +21,11 @@ class CreateShopSoldsTable extends Migration
            $table->datetime('application_date');
             $table->integer('advanced_Checque_cash');
             $table->float('percent');
-           $table->integer('checque no');
+           $table->integer('checque_no');
             $table->integer('installment');
             $table->integer('monthly');
             $table->integer('quarterly');
-            $table->integer('other Chargers');
+            $table->integer('other_Chargers');
             $table->string('remarks');
 
             $table->timestamps();

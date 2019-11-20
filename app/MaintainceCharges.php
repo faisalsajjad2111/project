@@ -1,7 +1,6 @@
 <?php
 
 namespace App;
-
 use Illuminate\Database\Eloquent\Model;
 
 class MaintainceCharges extends Model
@@ -12,11 +11,11 @@ class MaintainceCharges extends Model
     	'floor',
     	'Sqft_Size',
     	'Setup',
-    	'Bill No',
+    	'Bill_No',
     	'MaintCharges',
     	'Total',
     	'Reciieved',
-    	'Balance Reciieved'
+    	'Balance_Reciieved'
 
 
     ];
@@ -26,14 +25,14 @@ class MaintainceCharges extends Model
     	$charge = new self;
     	$charge->Shop_no = $data['Shop_no'];
     	$charge->floor = $data['floor'];
-    	$charge->Sqft_Size = $data['Sqft Size'];
+    	$charge->Sqft_Size = $data['Sqft_Size'];
     	$charge->Setup = $data['Setup'];
-    	$charge->Bill_No = $data['Bill No'];
+    	$charge->Bill_No = $data['Bill_No'];
     	 $charge->MaintCharges = $data['MaintCharges'];
     	$charge->Total = $data['Total'];
-    	$charge->Balance_Reciieved = $data['Balance Reciieved'];
+    	$charge->Balance_Reciieved = $data['Balance_Reciieved'];
     	 
-    	$result = $charge-save();
+    	$result = $charge->save();
     	return 'saved';
     }
 

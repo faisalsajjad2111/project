@@ -40,7 +40,7 @@ class ShopSold extends Model
     	 $sold->other_Chargers = $data['other_Chargers'];
         $sold->remarks = $data['remarks'];
 
-    	$result = $sold-save();
+    	$result = $sold->save();
     	return 'saved';
     }
 
