@@ -2,18 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\MaintainChargesRequest;
 use App\MaintainceCharges;
-
 class MaintainchargesController extends Controller
 {
 
-public function maintaincharges(Request $request){
+public function maintaincharges(MaintainChargesRequest $request){
 	try{
 	$result = MaintainceCharges::maintaincharges($request);
 	return $result;
 
 }catch(\Exception $exception){
+		return $exception->getMessage();
+
 
 }
 }

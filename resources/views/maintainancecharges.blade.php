@@ -528,12 +528,13 @@ Maintainence Charges        <small>Preview</small>
                             <div class="box-body">
   <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Shop_no</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Shop_no" name="Shop_no">
+
+               <label for="exampleInputEmail1">shop_no</label>
+      <input type="shop_no" class="form-control" id="shop_no" placeholder="Enter shop_no" name="Shop_no" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">floor</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="floor" name="floor">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="floor" name="floor" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Sqft Size</label>
@@ -541,11 +542,11 @@ Maintainence Charges        <small>Preview</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Setup</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Setup" name="Setup">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Setup" name="Setup" required>
                 </div>
                                 <div class="form-group">
                   <label for="exampleInputPassword1">Bill No</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Bill No" name="Bill_No">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Bill No" name="Bill_No" required>
                 </div>
                  <div class="form-group">
                   <label for="exampleInputPassword1">MaintCharges</label>

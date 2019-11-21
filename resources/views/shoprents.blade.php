@@ -529,16 +529,16 @@
               <div class="box-body">
   <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">shop_id</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter shop_id" name="shop_id">
+                  <label for="exampleInputPassword1">shop_id</label>
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Enter shop_id" name="shop_id" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Month</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Month" name="month">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="Month" name="month" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">date_Received</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="date_Received" name="recieved_date">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="date_Received" name="recieved_date"required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Rent_Received</label>

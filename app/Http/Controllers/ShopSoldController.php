@@ -2,20 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+
+use App\Http\Requests\ShopSoldRequest;
 use App\ShopSold;
 
 class ShopSoldController extends Controller
 {
  
 
-public function savesolds(Request $request){
+public function savesolds(ShopSoldRequest $request){
 	try{
 $result = ShopSold::savesolds($request);
 	return $result;
 
 }catch(\Exception $exception){
-
+	return $exception->getMessage();
 }
 }
 

@@ -30,6 +30,7 @@ class MaintainceCharges extends Model
     	$charge->Bill_No = $data['Bill_No'];
     	 $charge->MaintCharges = $data['MaintCharges'];
     	$charge->Total = $data['Total'];
+        $charge->Reciieved = $data['Reciieved'];
     	$charge->Balance_Reciieved = $data['Balance_Reciieved'];
     	 
     	$result = $charge->save();

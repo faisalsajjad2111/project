@@ -249,15 +249,15 @@
   <div class="col-lg-6">
                 <div class="form-group">
                   <label for="exampleInputEmail1">shop_name</label>
-                  <input type="shop_name" class="form-control" id="shop_name" placeholder="Enter shop_name" name="shop_name">
+                  <input type="shop_name" class="form-control" id="shop_name" placeholder="Enter shop_name" name="shop_name" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">shop_id</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="shop_id" name="shop_id">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="shop_id" name="shop_id" >
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">total_cost</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="total_cost" name="total_cost">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="total_cost" name="total_cost" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">application_date</label>
@@ -265,31 +265,31 @@
                 </div>
                                 <div class="form-group">
                   <label for="exampleInputPassword1">advanced_Checque_cash</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="advanced_Checque_cash" name="advanced_Checque_cash">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="advanced_Checque_cash" name="advanced_Checque_cash" required>
                 </div>
                  <div class="form-group">
                   <label for="exampleInputPassword1">percent</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="percent" name="percent">
-                </div>
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="percent" name="percent" required>
+              </div>
               </div>
 
               <div class="col-lg-6">
                                  <div class="form-group">
                   <label for="exampleInputPassword1">checque no</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="checque no" name="checque_no">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="checque no" name="checque_no" required>
                 </div>
               
                   <div class="form-group">
                   <label for="exampleInputPassword1">installment</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="installment" name="installment">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="installment" name="installment" required>
                 </div>
                  <div class="form-group">
                   <label for="exampleInputPassword1">monthly</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="monthly"name="monthly">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="monthly"name="monthly" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">quarterly</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="quarterly" name="quarterly">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="quarterly" name="quarterly" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">other Chargers</label>
@@ -297,7 +297,7 @@
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">remarks</label>
-                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="remarks" name="remarks">
+                  <input type="Title" class="form-control" id="exampleInputPassword1" placeholder="remarks" name="remarks" required>
                 </div>
               </div>
             </div></div>
